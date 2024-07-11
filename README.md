@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Plann.er API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the solution to a challenge made by Rocketseat during the June 2024 NLW React Track. Plann.er is a travel planner, including travel guest and activity management functions.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![My Skills](https://skillicons.dev/icons?i=ts,react,tailwind,vite)](https://skillicons.dev)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Install dependencies**: `npm install`
+2. **Install the back-end API**: `https://github.com/rocketseat-education/nlw-journey-nodejs`
+3. **Run back-end API in other env**: `npm install && npm run dev`
+3. **Start testing**: `npm run dev`
 
-- Configure the top-level `parserOptions` property like this:
+## Contribute
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Clone project**: `git clone https://github.com/rafaelkremser/planner-react-poc.git`
+2. **Create feat/branch**: `git checkout -b feat/NAME`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## License
+
+This software is available under the following licenses:
+
+- [MIT](https://rem.mit-license.org)
